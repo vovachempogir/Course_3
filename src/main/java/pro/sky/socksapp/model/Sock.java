@@ -11,4 +11,5 @@ public class Sock {
     private Color color;
     private Size size;
     private int cottonPart;
+
 }

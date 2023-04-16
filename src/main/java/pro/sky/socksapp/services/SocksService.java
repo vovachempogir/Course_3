@@ -13,4 +13,5 @@ public interface SocksService {
     Integer getSocks(Color color, Size size, int cottonMin, int cottonMax);
 
     boolean deleteSocks(Sock sock, long quantity);
+
 }

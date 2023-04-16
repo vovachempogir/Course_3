@@ -14,4 +14,5 @@ public interface SocksFilesService {
     boolean cleanDataFile();
 
     boolean uploadDataFile(MultipartFile file);
+
 }

@@ -79,7 +79,7 @@ public class SocksServiceImpl implements SocksService {
     @Override
     public boolean deleteSocks(Sock sock, long quantity) {
         ObjectUtils.isNotEmpty(socks);
-        if (socks.containsKey(quantity)) {
+        if (socks.containsKey(sock)) {
             socks.remove(sock, quantity);
             saveToFile();
             return true;
@@ -106,4 +106,5 @@ public class SocksServiceImpl implements SocksService {
             throw new RuntimeException(e);
         }
     }
+
 }

@@ -96,4 +96,5 @@ public class SocksFilesController {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
         }
     }
+
 }
